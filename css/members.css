@@ -1,0 +1,292 @@
+/*this segment of code for responsive design*/
+html{
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    -webkit-locale: "en-US";
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    text-transform: capitalize;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*end responsive*/
+
+/*background*/
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.6)),url(../img/Screen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*first section*/
+
+.col-md-4{
+    text-align: center;
+}
+
+
+h1{
+   text-align: center;
+    font-size: 100px;
+    color: #c52525;
+   /* animation-duration: 5s;
+    animation-name: highboard ;
+    animation-iteration-count: infinite;*/
+}
+
+
+button{
+    color: rgb(2, 2, 73);
+}
+
+.ac_head{
+    margin-left: auto;
+    margin-left: auto;
+}
+
+
+
+.headimg{
+    transition: 2s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 2px black;
+    width: 350px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    font-size: 25px;
+}
+
+.headimg:hover{
+    transform: scale(1.2);
+}
+/*the end of head css*/
+
+/*the members css*/
+.memimg{
+    width: 250px;
+    transition: 2s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 2px black;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    /*padding-bottom: 40px;*/
+    /*padding-top: 30px;*/
+}
+
+.memimg:hover{
+    transform: scale(1.2);
+}
+
+
+.names{
+    text-align: center;
+    color:#00005b;
+   
+
+}
+
+.title{
+    text-align: center;
+    color: #c52525;
+   
+
+}
+
+h1,h3{
+    padding-top: 50px;
+}
+
+.content{
+    width: 1000px;
+}
+/*the end of member css*/
+
+.memberdis{
+    width: fit-content;
+    height: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    background-color: rgba(182, 182, 182, 0.815);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-width: 10px;
+    border-color: #00005b;
+    border-style:dashed;
+   
+}
+
+ul{
+    padding: 15px;
+}
+
+
+
+/*
+.memdis{
+    width: 850px;
+    height: 180px;
+    background-color: rgba(182, 182, 182, 0.815);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}*/
+
+/*padding between cards*/
+
+.col-md-6{
+    text-align: center;
+}
+
+.card{
+    background-color: rgba(182, 182, 182, 0.815);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-width: 10px;
+    border-color: #ffffff;
+    border-style:dotted;
+}
+
+
+
+/*media quiry for responsive*/
+
+@media screen and (max-width: 786px) {
+    .headimg {
+     width: 300px;
+    }
+
+    .memimg{
+        width: 250px;
+       /* margin-left:25% ;
+        margin-right: auto;*/
+    }
+    .col-md-3{
+        text-align: center;
+    }
+
+    .col-md-4{
+        text-align: center;
+    }
+
+    .col-md-6{
+        text-align: center;
+    }
+
+    .job{
+        width: 250px;
+    }
+
+    .memdis{
+        width: 350px;
+        height: 400px;
+    }
+
+  }
+/*media query for description*/
+  @media (min-width:1024px){
+      .memberdis{
+          width: 1000px;
+         
+      }
+  }
+
+  @media (max-width:1024px){
+    .memberdis{
+       margin-left: 5%;
+       margin-right: 5%;
+       
+    }
+}
+
+
+@media (min-width:1024px){
+    .card-body{
+        width: 1000px;
+       
+    }
+}
+
+@media (max-width:1024px){
+  .card-body{
+     margin-left: 5%;
+     margin-right: 5%;
+     
+  }
+}
+
+
+  @media (min-width:768px) and (max-width: 1180px) {
+    .headimg {
+     width: 300px;
+    }
+
+   h3{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h4{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .memimg{
+        width: 150px;
+       /* margin-left:25% ;
+        margin-right: auto;*/
+    }
+   /* .col-md-3{
+        text-align: center;
+        padding: 20px;
+       
+    }
+
+    .col-md-4{
+        text-align: center;
+        
+    }
+
+    .col-md-6{
+        text-align: center;
+        
+    }*/
+
+    .job{
+        width: 250px;
+    }
+
+    .memdis{
+        width: 550px;
+        height: 300px;
+    }
+
+  }
+  /*end of media query*/
+
+  h5{
+      font-size: 30px;
+  }
+

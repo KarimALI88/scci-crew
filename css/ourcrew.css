@@ -1,0 +1,302 @@
+/*crew css*/
+
+/*this segment of code for responsive design*/
+html{
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    -webkit-locale: "en-US";
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    text-transform: capitalize;
+    max-width: 100%;
+    overflow-x: hidden;
+    text-decoration: none;
+    
+    
+}
+/*end responsive*/
+.card-body{
+    background-color: rgba(182, 182, 182, 0.815);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-width: 10px;
+    border-color: #ffffff;
+    border-style:dotted;
+}
+/*background*/
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.6)),url(../img/Screen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*president css*/
+
+h1{
+    text-align: center;
+     font-size: 100px;
+     color: #c52525;
+    /* animation-duration: 5s;
+     animation-name: highboard ;
+     animation-iteration-count: infinite;*/
+ }
+
+/*end president*/
+
+/*the four heads*/
+
+.headsimg{
+    margin-left: auto;
+    margin-right: auto;
+    transition: 3s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 2px black;
+    width: 300px;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+
+.headsimg:hover{
+    transform: scale(1.2);
+}
+
+ /*coloring*/
+ 
+ .col-md-6{
+    text-align: center;
+    
+}
+
+ .presimg{
+    transition: 2s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 2px black;
+    width: 350px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 10%;
+ }
+
+
+ .presimg:hover{
+    transform: scale(1.2);
+ }
+
+
+ .names{
+    text-align: center;
+    color:#000096;
+    font-size: 40px;
+    text-shadow: 0px 0px 16px #000045;
+   
+}
+
+.title{
+    text-align: center;
+    color: #c52525;
+    font-size: 50px;
+    text-shadow: 0px 0px 16px #450000;
+}
+.titles{
+    color: #c52525;
+    text-shadow: 0px 0px 16px #450000;
+}
+h1,h3{
+    padding-top: 50px;
+}
+
+
+
+/*responsive design*/
+@media screen and (max-width: 768px) {
+    .presimg {
+     width: 300px;
+    }
+
+    details{
+        width: 350px;
+    }
+  
+
+    .headsimg{
+        width: 250px;
+       /* margin-left:25% ;
+        margin-right: auto;*/
+    }
+    .col-md-6{
+        text-align: center;
+    }
+
+    .job{
+        width: 250px;
+    }
+
+  }
+
+  /*end of media query*/
+
+  h5{
+      font-size: 30px;
+  }
+
+.btn{
+    background-color: #c52525;
+    text-decoration: none;
+    border: 2px solid #c52525 ;
+    border-radius: 15px;
+    color: #fff;
+}
+.btn:hover{
+    text-decoration: none;
+    background-color: #750000;
+    border: 2px solid #750000 ;
+    color: #fff;
+    border-radius: 15px;
+}
+
+/*media quiry for responsive*/
+
+@media screen and (max-width: 786px) {
+    .headimg {
+     width: 300px;
+    }
+
+    .memimg{
+        width: 250px;
+       /* margin-left:25% ;
+        margin-right: auto;*/
+    }
+    .col-md-3{
+        text-align: center;
+    }
+
+    .col-md-4{
+        text-align: center;
+    }
+
+    .col-md-6{
+        text-align: center;
+    }
+
+    .job{
+        width: 250px;
+    }
+
+    .memdis{
+        width: 350px;
+        height: 400px;
+    }
+
+  }
+
+  @media (min-width:768px) and (max-width: 1180px) {
+    .headimg {
+     width: 300px;
+    }
+
+   h3{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h4{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .memimg{
+        width: 150px;
+       /* margin-left:25% ;
+        margin-right: auto;*/
+    }
+   /* .col-md-3{
+        text-align: center;
+        padding: 20px;
+       
+    }
+
+    .col-md-4{
+        text-align: center;
+        
+    }
+
+    .col-md-6{
+        text-align: center;
+        
+    }*/
+
+    .job{
+        width: 250px;
+    }
+
+    .memdis{
+        width: 550px;
+        height: 300px;
+    }
+
+  }
+
+
+  @media (min-width:1024px){
+    .card-body{
+        width: 1000px;
+       
+    }
+}
+
+@media (max-width:1024px){
+  .card-body{
+     margin-left: 5%;
+     margin-right: 5%;
+     
+  }
+}
+  /*end of media query*/
+
+
+
+  .collapsible {
+    background-color: rgb(0, 5, 70);
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    border-color: rgb(16, 20, 87);
+    border-width:1px;
+    border-style:solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px 2px black;
+  }
+  
+  
+  
+  .content {
+    text-align: center;
+    width: 30%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgba(223, 196, 196, 0.692);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
